@@ -205,3 +205,28 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# Datos
+data/raw/
+data/processed/
+
+# Entornos virtuales
+venv/
+env/
+*.env
+.env/
+
+# API Keys y secretos
+config.py
+secrets.json
+*.key
+
+# Archivos del sistema
+.DS_Store
+__pycache__/
+*.pyc
+*.log
+
+# Jupyter notebooks
+.ipynb_checkpoints/
