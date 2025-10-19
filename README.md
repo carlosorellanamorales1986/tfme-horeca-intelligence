@@ -204,13 +204,13 @@ Base de Datos
 Tabla Restaurantes
 sql
 
-id, nombre, direccion, telefono, posicion_ranking, tipo_cocina, rango_precio, tripadvisor_id
+id, nombre, direccion, telefono, posicion_ranking, tipo_cocina, rango_precio, tripadvisor_id, localizacion, email, latitud, longitud, website, rango_precio, platos, tripadvisor_web, fecha_insercion, fecha_actualizacion, fecha_escaneo_reviews, conteo_rating_1 conteo_rating_2, conteo_rating_3, conteo_rating_4, conteo_rating_5
 
 Tabla Reviews
 sql
 
-id, restaurante_id, review_id, titulo, contenido, rating, idioma, 
-titulo_es, contenido_es, factores_queja, fecha_publicacion
+id, restaurante_id, tripadvisor_id, review_id, titulo, contenido, rating, idioma, 
+titulo_es, contenido_es, factores_queja, fecha_publicacion, fecha_experiencia, tipo_viaje, usuario, usuario_id, contribuciones_usuario, votos_utiles, respuesta_empresa, subratings, fotos, fecha_insercion
 
 Tabla Oportunidades
 sql
