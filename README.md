@@ -80,13 +80,13 @@ Los establecimientos HORECA reciben cientos de críticas en plataformas como Tri
 🏗️ Arquitectura del Sistema
 Módulos Principales
 
-    apify_scrape_restaurants.ipynb - Scraping de datos de restaurantes
+    01_apify_scrape_restaurants.ipynb - Scraping de datos de restaurantes
 
-    apify_scrape_reviews.ipynb - Scraping de críticas por restaurante
+    02_apify_scrape_reviews.ipynb - Scraping de críticas por restaurante
 
-    deepseek_reviews_processing.ipynb - Procesamiento y clasificación con IA
+    03_deepseek_reviews_processing.ipynb - Procesamiento y clasificación con IA
 
-    deepseek_oportunity_generator.ipynb - Generación de oportunidades comerciales
+    04_deepseek_oportunity_generator.ipynb - Generación de oportunidades comerciales
 
 📦 Instalación
 Prerrequisitos
@@ -140,16 +140,16 @@ Ejecución Completa del Sistema
 
 
 # 1. Scraping de restaurantes
-jupyter notebook apify_scrape_restaurants.ipynb
+jupyter notebook 01_apify_scraping_restaurantes.ipynb
 
 # 2. Scraping de críticas  
-jupyter notebook apify_scrape_reviews.ipynb
+jupyter notebook 02_apify_scraping_reviews.ipynb
 
 # 3. Procesamiento con IA
-jupyter notebook deepseek_reviews_processing.ipynb
+jupyter notebook 03_deepseek_procesamiento_reviews.ipynb
 
 # 4. Generación de oportunidades
-jupyter notebook deepseek_oportunity_generator.ipynb
+jupyter notebook 04_deepseek_generacion_oportunidades.ipynb
 
 Flujo Paso a Paso
 
@@ -187,10 +187,10 @@ Flujo Paso a Paso
 
 
 tfme-horeca-intelligence/
-├── 📓 apify_scrape_restaurants.ipynb
-├── 📓 apify_scrape_reviews.ipynb
-├── 📓 deepseek_reviews_processing.ipynb
-├── 📓 deepseek_oportunity_generator.ipynb
+├── 📓 01_apify_scraping_restaurantes.ipynb
+├── 📓 02_apify_scraping_reviews.ipynb
+├── 📓 03_deepseek_procesamiento_reviews.ipynb
+├── 📓 04_deepseek_generacion_oportunidades.ipynb
 ├── 📁 src/
 │   └── 📁 utils/
 │       └── 🐍 database.py
