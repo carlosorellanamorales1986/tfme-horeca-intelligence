@@ -192,11 +192,11 @@ tfme-horeca-intelligence/
 ├── 📓 04_deepseek_generacion_oportunidades.ipynb
 ├── 📁 src/
 │   └── 📁 utils/
-│       └── 🐍 database.py
-├── ⚙️ config.py
-├── 📋 requirements.txt
-├── 🔧 install.py
-└── 📄 README.md
+│       └── database.py
+├── config.py
+├── requirements.txt
+├── config.py
+└── README.md
 
 Base de Datos
 
