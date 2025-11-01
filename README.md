@@ -97,7 +97,7 @@ Prerrequisitos
 
     Cuenta de Apify (opcional, para scraping)
 
-# Instalación Rápida
+Instalación Rápida
 
 1 - Clonar el repositorio
 git clone https://github.com/tu-usuario/tfme-horeca-intelligence.git
