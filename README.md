@@ -97,17 +97,16 @@ Prerrequisitos
 
     Cuenta de Apify (opcional, para scraping)
 
-Instalación Rápida
+# Instalación Rápida
 
-
-# Clonar el repositorio
+1 - Clonar el repositorio
 git clone https://github.com/tu-usuario/tfme-horeca-intelligence.git
 cd tfme-horeca-intelligence
 
-# Instalar dependencias
+2 - Instalar dependencias
 pip install -r requirements.txt
 
-# O usar el script de instalación automática
+O usar el script de instalación automática
 python install.py
 
 Dependencias Principales
@@ -124,7 +123,7 @@ numpy>=1.21.0
 Crear config.py en la raíz del proyecto:
 python
 
-# config.py
+config.py
 DEEPSEEK_API_KEY = "sk-tu-api-key-de-deepseek"
 DB_PATH = "tfm_database.db"
 APIFY_API_KEY = "tu-api-key-de-apify"  # Opcional
@@ -139,16 +138,16 @@ APIFY_API_KEY = "tu-api-key-de-apify"  # Opcional
 Ejecución Completa del Sistema
 
 
-# 1. Scraping de restaurantes
+1. Scraping de restaurantes
 jupyter notebook 01_apify_scraping_restaurantes.ipynb
 
-# 2. Scraping de críticas  
+2. Scraping de críticas  
 jupyter notebook 02_apify_scraping_reviews.ipynb
 
-# 3. Procesamiento con IA
+3. Procesamiento con IA
 jupyter notebook 03_deepseek_procesamiento_reviews.ipynb
 
-# 4. Generación de oportunidades
+4. Generación de oportunidades
 jupyter notebook 04_deepseek_generacion_oportunidades.ipynb
 
 Flujo Paso a Paso
@@ -202,18 +201,18 @@ tfme-horeca-intelligence/
 Base de Datos
 
 Tabla Restaurantes
-sql
+
 
 id, nombre, direccion, telefono, posicion_ranking, tipo_cocina, rango_precio, tripadvisor_id, localizacion, email, latitud, longitud, website, rango_precio, platos, tripadvisor_web, fecha_insercion, fecha_actualizacion, fecha_escaneo_reviews, conteo_rating_1 conteo_rating_2, conteo_rating_3, conteo_rating_4, conteo_rating_5
 
 Tabla Reviews
-sql
+
 
 id, restaurante_id, tripadvisor_id, review_id, titulo, contenido, rating, idioma, 
 titulo_es, contenido_es, factores_queja, fecha_publicacion, fecha_experiencia, tipo_viaje, usuario, usuario_id, contribuciones_usuario, votos_utiles, respuesta_empresa, subratings, fotos, fecha_insercion
 
 Tabla Oportunidades
-sql
+
 
 id, tripadvisor_id, reviews_utilizadas, problematicas_detectadas, 
 oportunidades, fecha_insercion
@@ -222,12 +221,11 @@ oportunidades, fecha_insercion
 Ejemplo de Ejecución
 python
 
-# El sistema se ejecuta mediante notebooks Jupyter
-# Cada notebook tiene celdas marcadas para ejecución secuencial
+El sistema se ejecuta mediante notebooks Jupyter y cada notebook tiene celdas marcadas para ejecución secuencial
 
-# 1. Configurar API keys en config.py
-# 2. Ejecutar celdas en orden numerado
-# 3. Ver resultados en la base de datos
+1. Configurar API keys en config.py
+2. Ejecutar celdas en orden numerado
+3. Ver resultados en la base de datos
 
 Salidas del Sistema
 
@@ -294,7 +292,7 @@ Categorías de Queja Detectadas
 
     Jupyter Notebooks - Desarrollo interactivo
 
-    Python 3.8+ - Lenguaje de programación
+    Python 3.10.18+ - Lenguaje de programación
 
 🤝 Contribución
 
